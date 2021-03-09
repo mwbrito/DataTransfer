@@ -1,0 +1,1 @@
+https://medium.com/@hbhhathorn/install-an-asp-net-core-web-api-on-linux-ubuntu-18-04-and-host-with-nginx-and-ssl-2ed9df7371fb
