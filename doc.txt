@@ -1,0 +1,43 @@
+Risco Sacado
+
+Escopo:
+
+	Automatizar a operação do produto Risco Sacado, com foco nos processos manuais (aprovação no plataforma Monkey, boletagem no Sinqia FrontPJ e pagamento no Autbank EBank).
+
+	
+
+Descrição detalhada:
+
+
+	Frontend:
+		- página sumarizando as operações por sacado para D0 com as informações:
+			- Nome sacado;
+			- Quantidade fornecedores;
+			- Quantidade títulos;
+			- Soma do valor bruto;
+			- Soma do valor liquido;
+
+		- página com detalhes das operações por sacado para D0 com as informações:
+			- Nome sacado;
+			- Sumarizar por fornecedor:
+				- Nome fornecedor;
+				- Quantidade de títulos;
+				- Soma valor bruto;
+				- Soma valor líquido;
+				- Status da integração com a Monkey;
+			- Detalhe dos itens do fornecedor:
+				- Número NF;
+				- Valor NF;
+				- Data de vencimento;
+				- Taxa;
+				- Data da operação;
+				- Valor líquido;
+				- Número da proposta no Sinqia;
+				- Checkbox para aprovação do item;
+				- Número do banco para pagamento;
+				- Número da agência para pagamento;
+				- Número da conta para pagamento;
+				- Soma do valor bruto aprovado Monkey;	
+				- Soma do valor líquido aprovado Monkey;
+				- Botão para aprovar as operações do fornecedor;
+
